@@ -26,6 +26,15 @@ body {
     padding-top: 4%;
 }
 
+.wrapper img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 2%;
+}
+
 .wrapper .notfound-404 {
     height: 200px;
 }
@@ -105,7 +114,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 6%;
+    padding-bottom: 2%;
 }
 
 .steps-list {
@@ -129,5 +138,9 @@ body {
     .wrapper .notfound-404 h1>span {
         width: 100px;
         height: 100px;
+    }
+
+    .wrapper img {
+        height: 60px;
     }
 }
