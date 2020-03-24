@@ -2,145 +2,144 @@
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    height: 100vh !important;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-size: 1rem;
-    scroll-behavior: smooth;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    background: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+	padding: 0;
+	margin: 0;
+	height: 100vh !important;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 1rem;
+	scroll-behavior: smooth;
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .wrapper {
-    height: auto !important;
-    width: 80% !important;
-    text-align: center;
-    line-height: 1.4;
-    padding-top: 4%;
+	height: auto !important;
+	width: 80% !important;
+	text-align: center;
+	line-height: 1.4;
+	padding-top: 4%;
 }
 
 .wrapper img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    object-fit: contain;
-    margin-bottom: 2%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	object-fit: contain;
+	margin-bottom: 2%;
 }
 
 .wrapper .notfound-404 {
-    height: 200px;
+	height: 200px;
 }
 
 .wrapper .notfound-404 h1 {
-    font-size: 146px;
-    font-weight: 700;
-    margin: 0;
-    /* color: #F4B334; */
-    color: #232323;
-    position: relative;
-    z-index: 999;
+	font-size: 146px;
+	font-weight: 700;
+	margin: 0;
+	/* color: #F4B334; */
+	color: #232323;
+	position: relative;
+	z-index: 999;
 }
 
 .orange {
-    color: #F4B334 !important;
-    font-weight: 600;
+	color: #f4b334 !important;
+	font-weight: 600;
 }
 
 .orangew {
-    color: #F4B334 !important;
-    font-weight: 600;
-    letter-spacing: .4em;
+	color: #f4b334 !important;
+	font-weight: 600;
+	letter-spacing: 0.4em;
 }
 
-.wrapper .notfound-404 h1>span {
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    /* background-image: url('../img/mawingu-logo-icon.png'); */
-    background-image: url('../img/emoji.png');
-    background-size: cover;
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
-    transform: scale(1.4);
-    position: relative;
-    z-index: -1;
+.wrapper .notfound-404 h1 > span {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	/* background-image: url('../img/mawingu-logo-icon.png'); */
+	background-image: url('../img/emoji.png');
+	background-size: cover;
+	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	position: relative;
+	z-index: -1;
 }
 
 .wrapper h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-    color: #F4B334;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+	color: #f4b334;
 }
 
 .wrapper p {
-    color: #787878;
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 0;
+	color: #787878;
+	font-weight: 300;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 .wrapper a {
-    display: inline-block;
-    padding: 12px 30px;
-    font-weight: 500;
-    text-transform: uppercase;
-    background-color: #2196F3;
-    border: 1px solid #2196F3;
-    color: #fff;
-    border-radius: 40px;
-    text-decoration: none;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    margin-bottom: 2%;
+	display: inline-block;
+	padding: 12px 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #2196f3;
+	border: 1px solid #2196f3;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	margin-bottom: 4%;
 }
 
 .wrapper a:hover {
-    color: #2196F3;
-    background-color: #fff;
-    border: 1px solid #2196F3;
+	color: #2196f3;
+	background-color: #fff;
+	border: 1px solid #2196f3;
 }
 
 .center-whole {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 2%;
 }
 
 .steps-list {
-    text-align: left;
-    color: #232323;
-    font-size: .9rem;
-    line-height: 1.8;
+	text-align: left;
+	color: #232323;
+	font-size: 0.9rem;
+	line-height: 1.8;
 }
 
-
 @media only screen and (max-width: 767px) {
-    .wrapper .notfound-404 {
-        height: 120px;
-        margin-top: 6%;
-    }
+	.wrapper .notfound-404 {
+		height: 120px;
+		margin-top: 6%;
+	}
 
-    .wrapper .notfound-404 h1 {
-        font-size: 86px;
-    }
+	.wrapper .notfound-404 h1 {
+		font-size: 86px;
+	}
 
-    .wrapper .notfound-404 h1>span {
-        width: 100px;
-        height: 100px;
-    }
+	.wrapper .notfound-404 h1 > span {
+		width: 100px;
+		height: 100px;
+	}
 
-    .wrapper img {
-        height: 60px;
-    }
+	.wrapper img {
+		height: 60px;
+	}
 }
