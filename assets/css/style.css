@@ -20,7 +20,7 @@ body {
 
 .wrapper {
 	height: auto !important;
-	width: 80% !important;
+	width: 90% !important;
 	text-align: center;
 	line-height: 1.4;
 	padding-top: 4%;
@@ -49,6 +49,11 @@ body {
 	z-index: 999;
 }
 
+
+.orange-plain {
+	color: #f4b334 !important;
+}
+
 .orange {
 	color: #f4b334 !important;
 	font-weight: 600;
@@ -60,7 +65,7 @@ body {
 	letter-spacing: 0.4em;
 }
 
-.wrapper .notfound-404 h1 > span {
+.wrapper .notfound-404 h1>span {
 	display: inline-block;
 	width: 120px;
 	height: 120px;
@@ -86,7 +91,7 @@ body {
 	color: #787878;
 	font-weight: 300;
 	font-size: 1rem;
-	margin-bottom: 0;
+	margin-bottom: 1rem;
 }
 
 .wrapper a {
@@ -111,10 +116,22 @@ body {
 }
 
 .center-whole {
+	width: 100% !important;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding-bottom: 2%;
+}
+
+.left-col {
+	max-width: 40% !important;
+	min-width: 400px !important;
+}
+
+.right-col {
+	max-width: 40% !important;
+	min-width: 400px !important;
 }
 
 .steps-list {
@@ -122,6 +139,9 @@ body {
 	color: #232323;
 	font-size: 0.9rem;
 	line-height: 1.8;
+	font-weight: 600 !important;
+	margin-top: 0 !important;
+	margin-bottom: 1.2rem !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -134,7 +154,7 @@ body {
 		font-size: 86px;
 	}
 
-	.wrapper .notfound-404 h1 > span {
+	.wrapper .notfound-404 h1>span {
 		width: 100px;
 		height: 100px;
 	}
@@ -143,3 +163,10 @@ body {
 		height: 60px;
 	}
 }
+
+.main-cole {
+	float: left;
+}
+
+.sidebar-cole {
+	float: right;
