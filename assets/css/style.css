@@ -122,16 +122,21 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-bottom: 2%;
+
 }
 
 .left-col {
 	max-width: 40% !important;
-	min-width: 400px !important;
+	min-width: 300px !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .right-col {
 	max-width: 40% !important;
-	min-width: 400px !important;
+	min-width: 300px !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .steps-list {
@@ -162,11 +167,14 @@ body {
 	.wrapper img {
 		height: 60px;
 	}
-}
 
-.main-cole {
-	float: left;
-}
+	.left-col {
+		min-width: 90% !important;
+		/* max-width: 100% !important; */
+	}
 
-.sidebar-cole {
-	float: right;
+	.right-col {
+		min-width: 90% !important;
+		/* max-width: 100% !important; */
+	}
+}
