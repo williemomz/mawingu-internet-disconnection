@@ -1,13 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap'); */
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/montserrat-v14-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/montserrat-v14-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/montserrat-v14-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/montserrat-v14-latin-regular.svg#Montserrat') format('svg');
+	/* Legacy iOS */
+}
 
 html,
 body {
+	font-family: 'Montserrat', Fallback, sans-serif;
 	padding: 0 !important;
 	margin: 0 !important;
 	height: 100vh !important;
 	width: 100%;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-size: 1rem;
 	scroll-behavior: smooth;
 	overflow-x: hidden !important;
